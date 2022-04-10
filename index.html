@@ -34,6 +34,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
     <!--MAIN TITLE-->
     <title>Timo Reusch</title>
+
+    <!--Analytics-->
+    <script>
+        if (!sessionStorage.getItem("_swa") && document.referrer.indexOf(location.protocol + "//" + location.host) !== 0) {
+            fetch("https://counter.dev/track?" + new URLSearchParams({
+                referrer: document.referrer,
+                screen: screen.width + "x" + screen.height,
+                user: "timo.reusch",
+                utcoffset: "2"
+            }))
+        };
+        sessionStorage.setItem("_swa", "1");
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".scrollspy" data-offset="85">
