@@ -4,6 +4,7 @@
 
 	</div>
 	<!--End of Particle Background-->
+
 	<div class="container introduction text-center">
 		<p class="welcome_text mb-4" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="150"
 			 style="display: none">
