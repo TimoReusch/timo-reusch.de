@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"aos": "^2.3.4"
+		"aos": "^2.3.4",
+		"svelte-intersection-observer": "^0.10.1"
 	}
 }
