@@ -1,12 +1,12 @@
 <script>
-	import SectionContainer from '$lib/components/SectionContainer.svelte';
+	import SectionContainer from '$lib/components/pageLayout/SectionContainer.svelte';
 	import pythonLogo from '$lib/assets/images/logos/python.svg';
 	import mariaDBLogo from '$lib/assets/images/logos/mariaDB.svg';
 	import abapLogo from '$lib/assets/images/logos/sap.svg';
 	import sapUI5Logo from '$lib/assets/images/logos/sapui5.svg';
 	import arduinoLogo from '$lib/assets/images/logos/arduino.svg';
 	import azureDevOpsLogo from '$lib/assets/images/logos/azure_devops.png';
-	import TechIcon from '$lib/components/TechIcon.svelte';
+	import TechIcon from '$lib/components/TechIconComponent.svelte';
 </script>
 
 <section class="stack background_gpattern" id="stack">

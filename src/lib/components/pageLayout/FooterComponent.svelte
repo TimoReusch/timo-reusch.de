@@ -7,7 +7,7 @@
 		<div class="row justify-content-center text-center">
 			<div class="col-md-12">
 				<div class="text-center">
-					<p class="copyright-text mt-3 mb-5"><a href="imprint.html">Imprint</a> | <a href="privacy.html">Privacy
+					<p class="copyright-text mt-3 mb-5"><a href="../../../routes/(main)/imprint">Imprint</a> | <a href="../../../routes/(main)/privacy">Privacy
 						Statement</a><br> © {currentYear} - Timo Reusch
 					</p>
 				</div>

@@ -1,8 +1,8 @@
 <script>
-	import Hero from './Hero.svelte';
-	import About from './About.svelte';
-	import TechStack from './TechStack.svelte';
-	import CV from './CV.svelte';
+	import Hero from './HeroSection.svelte';
+	import About from './AboutSection.svelte';
+	import TechStack from './TechStackSection.svelte';
+	import CV from './CVSection.svelte';
 </script>
 
 <div>
