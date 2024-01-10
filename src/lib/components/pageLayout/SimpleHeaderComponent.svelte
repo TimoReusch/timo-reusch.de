@@ -3,7 +3,7 @@
 		<div class="container">
 			<!--LOGO AREA-->
 			<div class="site-logo">
-				<a href="/static" class="hoveroff" title="">
+				<a href="/" class="hoveroff" title="">
 					TIMO<span>REUSCH</span>
 				</a>
 			</div>

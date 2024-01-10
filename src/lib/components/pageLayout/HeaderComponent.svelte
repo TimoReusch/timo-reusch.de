@@ -1,3 +1,11 @@
+<script>
+	import { onMount } from 'svelte'
+
+	onMount(() => {
+
+	})
+</script>
+
 <header class="navigation horizontal_header transparentOnScroll navbar navbar-expand-lg fixed-top">
 	<div class="header-ins">
 		<div class="container">

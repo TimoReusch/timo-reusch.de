@@ -103,7 +103,7 @@ import CVCompany from '$lib/components/CV/CVCompanyComponent.svelte';
 					smartphone during a hackathon<br> - Content creation for SAPs social media
 					channels
 					<br> - Attending various trainings for project management, agile software
-					development, User Experience & UI-Design, ABAP-Development
+					development, User Experience & UI-Design, ABAP-Development, Web-Development, Fiori
 				</CVJob>
 			</CVCompany>
 			<li></li>

@@ -1,6 +1,6 @@
 <script>
 	import SectionContainer from '$lib/components/pageLayout/SectionContainer.svelte';
-	import CVComponent from '$lib/components/CV/CVComponent.svelte';
+	import CVComponent from '$lib/components/CV/CVView.svelte';
 </script>
 
 <section class="resume background_gpattern" id="resume">
