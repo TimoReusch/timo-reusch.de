@@ -44,7 +44,7 @@
 		<div class="row justify-content-center align-items-center">
 			<div class="col-md-6">
 				<div class="avatar-area m-auto">
-					<img src="https://timo-reusch.de/assets/images/002.jpg" width="400" height="550" alt=""
+					<img src="https://api.timo-reusch.de/images/002.jpg" width="400" height="550" alt=""
 							 class="img-fluid mx-auto">
 				</div>
 			</div>
