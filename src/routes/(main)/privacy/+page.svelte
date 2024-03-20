@@ -75,8 +75,7 @@
 	<p>Die verantwortliche Stelle f&uuml;r die Datenverarbeitung auf dieser Website ist:</p>
 
 	<p>Timo Reusch<br>Da dies eine rein privat und zum Spaß betriebene Webseite ist, teile ich meine Anschrift nur bei
-		berechtigten (juristischen) Anliegen mit. Kontaktieren Sie mich dazu bitte per Mail an
-		address-request@timo-reusch.de.</p>
+		berechtigten (juristischen) Anliegen mit. <a href="https://api.timo-reusch.de/mail">Kontaktieren Sie mich dazu bitte per Mail.</a></p>
 
 	<svg width="13%" height="100%" viewBox="0 0 144 12" version="1.1" xmlns="http://www.w3.org/2000/svg"
 			 xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"

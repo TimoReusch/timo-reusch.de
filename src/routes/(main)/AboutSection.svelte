@@ -15,7 +15,9 @@
 
 		fetch('https://api.timo-reusch.de/age.php', options)
 			.then(response => response.json())
-			.then(response => console.log(response))
+			.then(data => {
+				age = data.age
+			})
 			.catch(err => console.error(err));
 	}
 
@@ -50,7 +52,7 @@
 			</div>
 			<div class="col-md-6 mt-5 mt-md-0">
 				<h3 class="m-0">Hey! I'm Timo,</h3>
-				<p class="my-4">a {age.age}-year old Software Developer, with a passion for web development,
+				<p class="my-4">a {age}-year old Software Developer, with a passion for web development,
 					UI/UX, and mobile solutions.
 				</p>
 				<p class="my-4">
