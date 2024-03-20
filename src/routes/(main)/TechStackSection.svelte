@@ -1,5 +1,5 @@
 <script>
-	import SectionContainer from '$lib/components/pageLayout/SectionContainer.svelte';
+	import SectionContainer from '$lib/containers/SectionContainer.svelte';
 	import pythonLogo from '$lib/assets/images/logos/python.svg';
 	import mariaDBLogo from '$lib/assets/images/logos/mariaDB.svg';
 	import abapLogo from '$lib/assets/images/logos/sap.svg';
@@ -30,6 +30,9 @@
 							<TechIcon technologyName="Swift">
 								<span class="devicon-swift-plain colored icon"></span>
 							</TechIcon>
+							<TechIcon technologyName="Dart">
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" width="35" style="margin-right: 20px;"/>
+							</TechIcon>
 							<TechIcon technologyName="Kotlin">
 								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
 										 width="35"
@@ -53,14 +56,17 @@
 							<TechIcon technologyName="SvelteKit">
 								<span class="devicon-svelte-plain colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="DaisyUI">
-								<img src="https://daisyui.com/images/daisyui-logo/daisyui-logomark.svg" width="35" style="margin-right: 20px;">
+							<TechIcon technologyName="Flutter">
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="35" style="margin-right: 20px;"/>
 							</TechIcon>
 							<TechIcon technologyName="Bootstrap">
 								<span class="devicon-bootstrap-plain icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="SASS">
 								<span class="devicon-sass-original colored icon"></span>
+							</TechIcon>
+							<TechIcon technologyName="Docker">
+								<span class="devicon-docker-plain colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="GitHub">
 								<span class="devicon-github-original icon"></span>

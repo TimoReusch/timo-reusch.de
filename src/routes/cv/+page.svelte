@@ -1,6 +1,6 @@
 <script>
 	import '../../app.scss';
-	import CVComponent from '$lib/components/CV/CVView.svelte';
+	import CVComponent from '$lib/views/CVExperienceView.svelte';
 	import { onMount } from 'svelte';
 
 	const apiUrl = "https://timo-reusch.de/api/private/cv.json";
@@ -18,7 +18,7 @@
 			method: 'GET',
 			headers: {
 				"content-type": "application/json; charset=UTF-8",
-				Authorization: 'Basic YXBpOlNudWdseTAtSmFtLU5pbnRlbmRv'
+				Authorization: 'Basic <Password>'
 			}
 		};
 
@@ -49,7 +49,7 @@
 				<li class="mb-3">970xx Würzburg</li>
 				<li class="mb-3">Geboren am xx.xx.xxxx in xxxxxxxxxx</li>
 				<li>Telefonnummer</li>
-				<li>mail@timo-reusch.de</li>
+				<li>Mail</li>
 				<li>https://timo-reusch.de</li>
 			</ul>
 			<hr>

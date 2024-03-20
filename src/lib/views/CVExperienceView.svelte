@@ -1,23 +1,18 @@
 <script>
 import CVJob from '$lib/components/CV/CVJobComponent.svelte';
 import CVCompany from '$lib/components/CV/CVCompanyComponent.svelte';
+import CVContainer from '$lib/containers/CVContainer.svelte';
 </script>
 
-<div class="row mt-4">
-	<div class="col-lg">
-		<ul class="list-inline resume-list">
+<CVContainer>
 			<CVCompany companyName="Julius-Maximilians-Universiät Würzburg - Chair of computer science X (Data Science)"
 								 companyLink="https://www.informatik.uni-wuerzburg.de/datascience/" timespan="Sept. 2022 - now">
-				<CVJob jobTitle="Student Research Assistant" timespan="Sept. 2022 - now" noBottomPadding="true">
-					Detecting anomalies in huge datasets is a challenging task. Even if you
-					have managed to train a fairly accurate model, there will eventually be data points
-					where the model is unsure how to classify them. To improve it, experts
-					should review those data points and annotate them. These annotations are then stored
-					and taken into account in the subsequent training of the model.
-					For this use case, my job is to create a web-application (FastAPI, SvelteKit), that
-					experts can use to annotate those data points without having any knowledge in
-					machine learning at all. This involves a user- and role-management, as well as a
-					highly customizable interface for the annotation process.
+				<CVJob jobTitle="Student Research Assistant, Anomaly Detection" timespan="Sept. 2023 - now">
+				</CVJob>
+				<CVJob jobTitle="Software Developer" timespan="Sept. 2022 - Sept. 2023" noBottomPadding="true">
+					Creating a web-application (FastAPI, SvelteKit) experts can use to annotate selected data points of a dataset
+					without having any knowledge in machine learning at all. This involves a user- and role-management, as well as
+					a highly customizable interface for the annotation process.
 				</CVJob>
 			</CVCompany>
 
@@ -107,6 +102,4 @@ import CVCompany from '$lib/components/CV/CVCompanyComponent.svelte';
 				</CVJob>
 			</CVCompany>
 			<li></li>
-		</ul>
-	</div>
-</div>
+</CVContainer>

@@ -21,7 +21,6 @@
 	});
 
 	function setHeader(){
-		console.log("executed")
 		if($page.url.pathname.includes("imprint") || $page.url.pathname.includes("privacy")){
 			simpleHeader = true;
 		} else {
