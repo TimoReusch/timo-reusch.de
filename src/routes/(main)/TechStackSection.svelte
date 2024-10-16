@@ -27,11 +27,8 @@
 							<TechIcon technologyName="JavaScript">
 								<span class="devicon-javascript-plain colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="Swift">
-								<span class="devicon-swift-plain colored icon"></span>
-							</TechIcon>
-							<TechIcon technologyName="Dart">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" width="35" style="margin-right: 20px;"/>
+							<TechIcon technologyName="PHP">
+								<span class="devicon-php-plain colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="Kotlin">
 								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
@@ -47,26 +44,29 @@
 							</div>
 						</div>
 						<div class="row">
+							<TechIcon technologyName="Svelte">
+								<span class="devicon-svelte-plain colored icon"></span>
+							</TechIcon>
+							<TechIcon technologyName="Laravel">
+								<span class="devicon-laravel-original colored icon"></span>
+							</TechIcon>
 							<TechIcon technologyName="FastAPI">
 								<span class="devicon-fastapi-plain colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="MariaDB">
-								<img src={mariaDBLogo} width="35" style="margin-right: 20px;">
+							<TechIcon technologyName="Compose Multiplatform">
+								<span class="devicon-jetpackcompose-line colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="SvelteKit">
-								<span class="devicon-svelte-plain colored icon"></span>
-							</TechIcon>
-							<TechIcon technologyName="Flutter">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="35" style="margin-right: 20px;"/>
+							<TechIcon technologyName="Tailwind CSS">
+								<span class="devicon-tailwindcss-original colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="Bootstrap">
 								<span class="devicon-bootstrap-plain icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="SASS">
-								<span class="devicon-sass-original colored icon"></span>
-							</TechIcon>
 							<TechIcon technologyName="Docker">
 								<span class="devicon-docker-plain colored icon"></span>
+							</TechIcon>
+							<TechIcon technologyName="MariaDB">
+								<img src={mariaDBLogo} width="35" style="margin-right: 20px;">
 							</TechIcon>
 							<TechIcon technologyName="GitHub">
 								<span class="devicon-github-original icon"></span>
@@ -91,11 +91,11 @@
 							<TechIcon technologyName="WordPress">
 								<span class="devicon-wordpress-plain icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="PHP">
-								<span class="devicon-php-plain colored icon"></span>
+							<TechIcon technologyName="Swift">
+								<span class="devicon-swift-plain colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="Java">
-								<span class="devicon-java-plain colored icon"></span>
+							<TechIcon technologyName="SASS">
+								<span class="devicon-sass-original colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="GitLab">
 								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
@@ -119,6 +119,18 @@
 							</div>
 						</div>
 						<div class="row">
+							<TechIcon technologyName="Dart">
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" width="35" style="margin-right: 20px;"/>
+							</TechIcon>
+							<TechIcon technologyName="Flutter">
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="35" style="margin-right: 20px;"/>
+							</TechIcon>
+							<TechIcon technologyName="Java">
+								<span class="devicon-java-plain colored icon"></span>
+							</TechIcon>
+							<TechIcon technologyName="Spring">
+								<span class="devicon-spring-plain colored icon"></span>
+							</TechIcon>
 							<TechIcon technologyName="ABAP">
 								<img src={abapLogo} style="margin-right: 20px;">
 							</TechIcon>
@@ -127,9 +139,6 @@
 							</TechIcon>
 							<TechIcon technologyName="Firebase">
 								<span class="devicon-firebase-plain colored icon"></span>
-							</TechIcon>
-							<TechIcon technologyName="Spring">
-								<span class="devicon-spring-plain colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="Arduino">
 								<img src={arduinoLogo} style="margin-right: 25px;">
