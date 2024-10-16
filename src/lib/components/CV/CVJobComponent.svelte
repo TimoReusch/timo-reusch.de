@@ -2,6 +2,7 @@
 	export let jobTitle;
 	export let timespan;
 	export let noBottomPadding = false;
+	export let stack = "";
 </script>
 
 <li class:no-bottom-padding={noBottomPadding}>
@@ -14,10 +15,14 @@
 
 	<slot name="additionalContent" />
 
+	{#if stack}
+		<p>Main technologies used: {stack}</p>
+	{/if}
+
 </li>
 
 <style>
-	.no-bottom-padding {
-			padding-bottom: 0;
-	}
+    .no-bottom-padding {
+        padding-bottom: 0;
+    }
 </style>
