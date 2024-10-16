@@ -7,7 +7,7 @@ import CVUniversityComponent from '$lib/components/CV/CVEducationComponent.svelt
 	<CVUniversityComponent universityName="Julius-Maximilians-University of Würzburg"
 												 programName="M.Sc. Computer Science"
 												 programLink="https://www.informatik.uni-wuerzburg.de/studium/studiengaenge/master-informatik/"
-												 timespan="April 2024 - Oct. 26"
+												 timespan="April 2024 - Oct. 2026"
 	/>
 	<CVUniversityComponent universityName="Julius-Maximilians-University of Würzburg"
 												 programName="B.Sc. Computer Science"
