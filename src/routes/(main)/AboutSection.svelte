@@ -85,7 +85,7 @@
 						<div class="col-xl-6">
 							<ul class="social-icons list-inline mt-4 mt-xl-0">
 								<li class="list-inline-item">
-									<a href="https://api.timo-reusch.de/mail"
+									<a href="https://api.timo-reusch.de/contact"
 										 target="_blank">
 										<i class="fa fa-envelope"></i>
 									</a>
