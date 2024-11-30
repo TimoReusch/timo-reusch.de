@@ -47,8 +47,8 @@
 							<TechIcon technologyName="Svelte">
 								<span class="devicon-svelte-plain colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="Laravel">
-								<span class="devicon-laravel-original colored icon"></span>
+							<TechIcon technologyName="Symfony">
+								<span class="devicon-symfony-original icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="FastAPI">
 								<span class="devicon-fastapi-plain colored icon"></span>

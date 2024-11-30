@@ -34,7 +34,7 @@
 					<a href="#stack" class="nav-link">Stack</a>
 				</li>
 				<li>
-					<a href="#resume" class="nav-link">Resumé</a>
+					<a href="#experience" class="nav-link">Experience</a>
 				</li>
 			</ul>
 			<!--Main Navigation END-->
