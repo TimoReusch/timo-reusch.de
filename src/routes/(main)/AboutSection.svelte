@@ -57,9 +57,7 @@
 				</p>
 				<p class="my-4">
 					Over the past few years, I've gained extensive experience in web development, working with
-					a variety of technologies and frameworks, especially Svelte.
-					Lately, mobile solutions have sparked my interest, so I'm actively working on native, as
-					well as cross-platform applications with Swift, Flutter and Compose Multiplatform.<br>
+					a variety of technologies and frameworks, especially Svelte.<br>
 					Besides that, I'm passionate about good UI/UX, having an eye for user-friendly and
 					visually appealing designs.
 				</p>
