@@ -57,7 +57,7 @@
 				</p>
 				<p class="my-4">
 					Over the past few years, I've gained extensive experience in web development, working with
-					a variety of technologies and frameworks, especially Svelte.<br>
+					a variety of technologies and frameworks, especially Svelte.
 					Besides that, I'm passionate about good UI/UX, having an eye for user-friendly and
 					visually appealing designs.
 				</p>
