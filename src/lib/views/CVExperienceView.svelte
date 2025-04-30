@@ -1,24 +1,31 @@
 <script>
 	import CVJob from '$lib/components/CV/CVJobComponent.svelte';
 	import CVCompany from '$lib/components/CV/CVCompanyComponent.svelte';
+	import CVCompanyOneJob from '$lib/components/CV/CVCompanyOneJobComponent.svelte';
 	import CVContainer from '$lib/containers/CVContainer.svelte';
 </script>
 
 <CVContainer>
-	<CVCompany companyName="Julius-Maximilians-Universiät Würzburg - Chair of computer science X (Data Science)"
-						 companyLink="https://www.informatik.uni-wuerzburg.de/datascience/"
-						 timespan="Sept. 2022 - now">
-		<CVJob jobTitle="Student Research Assistant, Anomaly Detection"
-					 timespan="Sept. 2023 - now"
-					 stack="Python for ML, Docker">
-		</CVJob>
-		<CVJob jobTitle="Software Developer"
-					 timespan="Sept. 2022 - Sept. 2023"
-					 noBottomPadding="true"
-					 stack="FastAPI, Svelte, Docker">
-			Design and development of a web-application for the annotation of datasets in a user-friendly way.
-		</CVJob>
-	</CVCompany>
+	<CVCompanyOneJob
+		companyName="N3 Engine Overhaul Services GmbH & Co. KG"
+		companyLink="https://n3eos.com"
+		timespan="April 2025 - now"
+		stack="Identity and Access Management">
+	</CVCompanyOneJob>
+
+	<CVCompanyOneJob
+		companyName="Julius-Maximilians-Universiät Würzburg - Chair of computer science X (Data Science)"
+		companyLink="https://www.informatik.uni-wuerzburg.de/datascience/"
+		timespan="Sept. 2022 - Feb. 2025"
+		jobTitle="Student Research Assistant"
+		stack="FastAPI, PyTorch, Docker, Kubernetes">
+		<ul class="unorderedList">
+			<li>Design and development of a web-application for the annotation of datasets in a user-friendly way</li>
+			<li>Building Models with PyTorch</li>
+			<li>Building APIs with FastAPI</li>
+			<li>Supporting research in the field of Anomaly Detection and xAI</li>
+		</ul>
+	</CVCompanyOneJob>
 
 	<CVCompany companyName="bb-net media GmbH"
 						 companyLink="https://bb-net.de"
