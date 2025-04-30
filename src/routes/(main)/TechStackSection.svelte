@@ -6,6 +6,8 @@
 	import sapUI5Logo from '$lib/assets/images/logos/sapui5.svg';
 	import arduinoLogo from '$lib/assets/images/logos/arduino.svg';
 	import azureDevOpsLogo from '$lib/assets/images/logos/azure_devops.png';
+	import zitadelLogo from '$lib/assets/images/logos/zitadel.png';
+	import shadcnLogo from '$lib/assets/images/logos/shadcn.svg';
 	import TechIcon from '$lib/components/TechIconComponent.svelte';
 </script>
 
@@ -22,18 +24,13 @@
 						</div>
 						<div class="row">
 							<TechIcon technologyName="Python">
-								<img src={pythonLogo} width="35" style="margin-right: 20px;">
+								<img src={pythonLogo} width="35" style="margin-right: 20px;" alt="Python Logo">
 							</TechIcon>
 							<TechIcon technologyName="JavaScript">
 								<span class="devicon-javascript-plain colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="PHP">
 								<span class="devicon-php-plain colored icon"></span>
-							</TechIcon>
-							<TechIcon technologyName="Kotlin">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
-										 width="35"
-										 style="margin-right: 20px;" />
 							</TechIcon>
 						</div>
 					</div>
@@ -44,29 +41,26 @@
 							</div>
 						</div>
 						<div class="row">
-							<TechIcon technologyName="Svelte">
-								<span class="devicon-svelte-plain colored icon"></span>
-							</TechIcon>
-							<TechIcon technologyName="Symfony">
-								<span class="devicon-symfony-original icon"></span>
-							</TechIcon>
 							<TechIcon technologyName="FastAPI">
 								<span class="devicon-fastapi-plain colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="Compose Multiplatform">
-								<span class="devicon-jetpackcompose-line colored icon"></span>
+							<TechIcon technologyName="Svelte">
+								<span class="devicon-svelte-plain colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="Tailwind CSS">
 								<span class="devicon-tailwindcss-original colored icon"></span>
 							</TechIcon>
-							<TechIcon technologyName="Bootstrap">
-								<span class="devicon-bootstrap-plain icon"></span>
+							<TechIcon technologyName="shadcn/ui">
+								<img src={shadcnLogo} width="35" style="margin-right: 20px;" alt="shadcn Logo">
+							</TechIcon>
+							<TechIcon technologyName="Zitadel">
+								<img src={zitadelLogo} width="30" style="margin-right: 26px;" alt="Zitadel Logo">
+							</TechIcon>
+							<TechIcon technologyName="MariaDB">
+								<img src={mariaDBLogo} width="35" style="margin-right: 20px;" alt="MariaDB Logo">
 							</TechIcon>
 							<TechIcon technologyName="Docker">
 								<span class="devicon-docker-plain colored icon"></span>
-							</TechIcon>
-							<TechIcon technologyName="MariaDB">
-								<img src={mariaDBLogo} width="35" style="margin-right: 20px;">
 							</TechIcon>
 							<TechIcon technologyName="GitHub">
 								<span class="devicon-github-original icon"></span>
@@ -99,31 +93,43 @@
 							</TechIcon>
 							<TechIcon technologyName="GitLab">
 								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg"
-										 width="35" style="margin-right: 20px;" />
+										 width="35" style="margin-right: 20px;" alt="GitLab Logo"/>
 							</TechIcon>
 							<TechIcon technologyName="Google Cloud">
 								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg"
-										 width="35" style="margin-right: 20px;" />
+										 width="35" style="margin-right: 20px;" alt="Google Cloud Logo"/>
 							</TechIcon>
 							<TechIcon technologyName="Microsoft Azure">
 								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
-										 width="32" style="margin-right: 23px;" />
+										 width="32" style="margin-right: 23px;" alt="Microsoft Azure Logo"/>
 							</TechIcon>
+							<TechIcon technologyName="Bootstrap">
+								<span class="devicon-bootstrap-plain icon"></span>
+							</TechIcon>
+
 						</div>
 					</div>
 					<div class="col-md-6">
 						<div class="row">
 							<div class="col">
-								<p>I haven't used those in a while now, but worked with them in the past:
+								<p>I haven't used those in a while now, but did projects with them in the past:
 								</p>
 							</div>
 						</div>
 						<div class="row">
+							<TechIcon technologyName="Kotlin">
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+										 width="35"
+										 style="margin-right: 20px;" alt="Kotlin Logo"/>
+							</TechIcon>
+							<TechIcon technologyName="Compose Multiplatform">
+								<span class="devicon-jetpackcompose-line colored icon"></span>
+							</TechIcon>
 							<TechIcon technologyName="Dart">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" width="35" style="margin-right: 20px;"/>
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dart/dart-original.svg" width="35" style="margin-right: 20px;" alt="Dart Logo"/>
 							</TechIcon>
 							<TechIcon technologyName="Flutter">
-								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="35" style="margin-right: 20px;"/>
+								<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flutter/flutter-original.svg" width="35" style="margin-right: 20px;" alt="Flutter Logo"/>
 							</TechIcon>
 							<TechIcon technologyName="Java">
 								<span class="devicon-java-plain colored icon"></span>
@@ -132,20 +138,20 @@
 								<span class="devicon-spring-plain colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="ABAP">
-								<img src={abapLogo} style="margin-right: 20px;">
+								<img src={abapLogo} style="margin-right: 20px;" alt="SAP ABAP Logo">
 							</TechIcon>
 							<TechIcon technologyName="SAPUI5">
-								<img src={sapUI5Logo} style="margin-right: 25px;">
+								<img src={sapUI5Logo} style="margin-right: 25px;" alt="SAP UI5 Logo">
 							</TechIcon>
 							<TechIcon technologyName="Firebase">
 								<span class="devicon-firebase-plain colored icon"></span>
 							</TechIcon>
 							<TechIcon technologyName="Arduino">
-								<img src={arduinoLogo} style="margin-right: 25px;">
+								<img src={arduinoLogo} style="margin-right: 25px;" alt="Arduino Logo">
 							</TechIcon>
 							<TechIcon technologyName="Azure DevOps">
 								<span style="margin-right: 20px;">
-									<img src={azureDevOpsLogo} width="35">
+									<img src={azureDevOpsLogo} width="35" alt="Azure DevOps Logo">
 								</span>
 							</TechIcon>
 						</div>
