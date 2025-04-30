@@ -61,6 +61,10 @@
 					Besides that, I'm passionate about good UI/UX, having an eye for user-friendly and
 					visually appealing designs.
 				</p>
+				<a href="https://it.timo-reusch.de"
+					 class="btn btn-outline-primary btn-small mb-4">
+					Looking for my Business Site?
+				</a>
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="about-info mb-2">
