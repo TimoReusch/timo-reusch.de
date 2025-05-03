@@ -2,8 +2,8 @@
 	import SectionContainer from '$lib/containers/SectionContainer.svelte';
 	import { onMount } from 'svelte';
 
-	let yearsOfExperience = 0;
-	let age = 0;
+	let yearsOfExperience = 7;
+	let age = 25;
 
 	async function fetchAge() {
 		const options = {
@@ -52,14 +52,18 @@
 			</div>
 			<div class="col-md-6 mt-5 mt-md-0">
 				<h3 class="m-0">Hey! I'm Timo,</h3>
-				<p class="my-4">a {age}-year old Software Developer, with a passion for web development,
-					UI/UX, and mobile solutions.
+				<p class="my-4">a {age}-year old computer scientist, with a passion for IAM, web development and
+					UI/UX.
 				</p>
 				<p class="my-4">
 					Over the past few years, I've gained extensive experience in web development, working with
-					a variety of technologies and frameworks, especially Svelte.
+					a variety of technologies and frameworks, especially FastAPI and Svelte.
 					Besides that, I'm passionate about good UI/UX, having an eye for user-friendly and
 					visually appealing designs.
+				</p>
+				<p class="my-4">
+					A special interest of mine is identity and access management, a field I’ve developed expertise in through
+					research, professional work and personal projects.
 				</p>
 				<a href="https://it.timo-reusch.de"
 					 class="btn btn-outline-primary btn-small mb-4">
